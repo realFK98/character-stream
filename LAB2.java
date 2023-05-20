@@ -11,7 +11,7 @@ public class LAB2 {
             FileWriter file = new FileWriter("data.txt");
             BufferedWriter output = new BufferedWriter(file);
             output.write("Hello World");
-            output.write("Welcome to Java");
+            output.write(86);
             output.close();
         } catch (IOException e) {
             // TODO Auto-generated catch block
