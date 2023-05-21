@@ -21,6 +21,7 @@ public class LAB2 {
         try {
             FileReader file = new FileReader("data.txt");
             BufferedReader input = new BufferedReader(file); // เป็นตัวเก็บ char
+            input.lines();
             String s;
             while ((s = input.readLine()) != null) { // reader จะมีการอ่านที่เป็น line
                 System.out.print(s);

@@ -21,10 +21,11 @@ public class LAB1 {
         try {
             FileReader input = new FileReader("data.txt");
             int ch;
+
             while ((ch = input.read()) != -1) {
                 System.out.print((char) ch);
-
             }
+
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
